@@ -405,7 +405,12 @@
 </head>
 
 <body class="antialiased">
-    <h1 style='text-align:center'>Hello world</h1>
+    <header>
+        <h1 style='text-align:center'>Hello {{ $name }}</h1>
+    </header>
+    <main>
+        Main page
+    </main>
 </body>
 
 </html>
