@@ -16,4 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $name = 'Oder';
     return view('home', compact('name'));
-});
+})->name('home');
+
+Route::get('/pages.second', function () {
+    return view('pages/second');
+})->name('second');
+
+Route::get('/pages.third', function () {
+    return view('pages/third');
+})->name('third');

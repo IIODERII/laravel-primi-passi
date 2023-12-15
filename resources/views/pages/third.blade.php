@@ -406,7 +406,7 @@
 
 <body class="antialiased">
     <header>
-        <h1 style='text-align:center'>Hello {{ $name }}</h1>
+        <h1 style='text-align:center'>Hello</h1>
         <ul>
             <li><a href="{{ route('home') }}">Home</a></li>
             <li><a href="{{ route('second') }}">second page</a></li>
@@ -414,7 +414,7 @@
         </ul>
     </header>
     <main>
-        Main page
+        third page
     </main>
 </body>
 
